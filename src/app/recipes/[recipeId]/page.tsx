@@ -10,6 +10,8 @@ import {
 } from "@/redux/slices/recipeSlice";
 import { useAppSelector } from "@/redux/hook";
 import { Comment } from "@/redux/types";
+import SocialShareButtons from "@/components/SocialShareButtons";
+import PopularTags from "@/components/PopularTags";
 
 const RecipeDetailsPage = () => {
   const { recipeId } = useParams<{ recipeId: string }>();
@@ -145,6 +147,9 @@ const RecipeDetailsPage = () => {
           Submit Comment
         </button>
       </div>
+
+      <SocialShareButtons />
+      <PopularTags />
     </div>
   );
 };
