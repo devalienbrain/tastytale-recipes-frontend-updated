@@ -18,4 +18,4 @@
 2. Install dependencies using `npm install`.
 3. Run the project using `npm run dev`.
 
-## Server side code link: [Github repo link](https://github.com/devalienbrain/tasty-tales-recipe-sharing-client)
+## Previous client side code link: [Github repo link](https://github.com/devalienbrain/tasty-tales-recipe-sharing-client)
